@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Inter";
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+body{
+    font-family: "Inter";
+    margin:0px;
+    padding:75px 150px 100px 150px;
+    background-color: hsl(36, 100%, 99%);
+}
+.gridcontainer{
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    margin-bottom: 50px;
+}
+.navbar{
+    justify-self:right;
+    display: flex;    
+    column-gap: 35px; 
+                                                                                           
+}
+.bars{
+    text-decoration: none;
+    color:hsl(236, 13%, 42%);
+}
+.bars:hover{
+    color:hsl(5, 85%, 63%);
+}
+/* Code until the navbar */
+
+.bigimage{
+    width:700px;
+    height:280px;
+}
+.flexbox1{
+    display: flex;
+    column-gap: 30px; 
+    
+}
+.flexchild{
+    width:700px;
+}
+.flexbox2{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.BrightFuture{
+   font-size: 50px;
+   line-height: 1;
+   width:350px;
+   padding-right:10px;
+   box-sizing: border-box;
+   font-weight: 800;
+}
+.flexpara{
+   width: 350px;
+   font-size: 15px;
+   line-height: 1.5;
+   color:hsl(236, 13%, 42%);
+   
+}
+.flexbtn{
+    padding:15px 40px;
+    letter-spacing:4px; 
+    margin-top:25px;
+    font-size: 12px;
+    background-color: hsl(5, 85%, 63%);
+    color:white;
+    font-weight: 700;
+    border:0px;
+}
+.flexbtn:hover{
+    background-color: black;
+
+}
+/* until main news */
+.sidenews{
+    color:white;
+    background-color: black;
+    padding: 20px;
+    width:295px;
+}
+.para{
+    font-size: 15px;
+    color:hsl(236, 13%, 42%);
+}
+.new{
+    font-size: 40px;
+    font-weight: 600;
+    color:hsl(35, 77%, 62%);
+}
+hr{
+    margin:25px 0px;
+}
+.paraheading:hover{
+    color:hsl(35, 77%, 62%);
+}
+/* until side news */
+.flexbox3{
+    display:flex;
+    margin-top: 65px;
+}
+.boxes{
+    width:350px;
+}
+.floatimg{
+    float:left;
+    width:100px;
+    margin-right:20px;
+    
+}
+.heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin:12px;
+
+}
+.heading:hover{
+    color:hsl(5, 85%, 63%);
+}
+.num
+{
+    margin:0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+.par{
+    margin:0px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: hsl(236, 13%, 42%);
+}
+.growth{
+    margin-left:30px;
+}
